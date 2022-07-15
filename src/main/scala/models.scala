@@ -1,4 +1,0 @@
-object models {
-  // data modeling
-
-}

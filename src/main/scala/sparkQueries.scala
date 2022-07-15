@@ -8,7 +8,7 @@ object sparkQueries {
     val spark = SparkSession
       .builder
       .appName("Spark Queries")
-      .master("spark://trainingsrv:7077")
+      .master("spark://<hostaddr>:7077") // change hostaddr
       .config("spark.master", "local[*]")
       .config("spark.driver.allowMultipleContexts", "true")
       .enableHiveSupport()
