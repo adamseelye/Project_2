@@ -1,4 +1,5 @@
 object covidanalysis extends App {
-  println("hello")
+  // app parent object, used for code organization
+  ui.greeting()
 
 }
