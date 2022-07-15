@@ -1,0 +1,31 @@
+Access COVID api JavaScript:
+
+async function loadData() {
+  const data = await (await fetch(`https://storage.googleapis.com/covid19-open-data/v3/latest/epidemiology.json`)).json();
+// Use the data...
+}
+
+
+Using curl:
+
+curl https://storage.googleapis.com/covid19-open-data/v3/latest/epidemiology.csv
+
+
+Data (location key):
+
+CSV:
+https://storage.googleapis.com/covid19-open-data/v3/location/US.csv
+
+JSON:
+https://storage.googleapis.com/covid19-open-data/v3/location/US.json
+
+Subsets:
+Aggregated table:
+https://storage.googleapis.com/covid19-open-data/v3/latest/aggregated.csv
+
+Epidemiology:
+https://storage.googleapis.com/covid19-open-data/v3/latest/epidemiology.csv
+
+Vaccinations:
+https://storage.googleapis.com/covid19-open-data/v3/latest/vaccinations.csv
+

@@ -2,6 +2,8 @@
 
 ## Group: VICTORIOUS
 
+## Project Title: Covid Analysis
+
 Project 2 is an analysis of COVID data using Spark.
 
 We will be making queries of the data to better
