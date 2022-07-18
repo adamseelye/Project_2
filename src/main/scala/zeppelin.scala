@@ -26,7 +26,6 @@ object zeppelin {
     println("created spark session")
 
     val sc = spark.sparkContext
-    val sqlContext= new org.apache.spark.sql.SQLContext(sc)
 
     import spark.implicits._
 
